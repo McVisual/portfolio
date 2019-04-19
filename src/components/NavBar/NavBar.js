@@ -1,13 +1,16 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+import './NavBar.css';
+
 
 const NavBar = () => {
     return(
-        <div>
-            <Navbar>
-                <Navbar.Brand href="#">Jimmy Yoon</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            </Navbar>
+        <div className="topnav">
+                <li>Jimmy Yoon</li>
+                <div className="top-right">
+                    <li>Projects</li>
+                    <li>About Me</li>
+                    <li>Blog</li>
+                </div>
         </div>
     );
 }

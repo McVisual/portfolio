@@ -1,12 +1,13 @@
 import React from 'react';
+import './SocialMedia.css';
 
-const SocialMedia = (props) => {
+const SocialMedia = () => {
     return(
         <div className="icons-social">
-            <a target="_blank" href="https://github.com/flexdinesh"><i class="fab fa-github"></i></a>
-            <a target="_blank" href="https://twitter.com/flexdinesh"><i class="fab fa-twitter"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/dineshpandiyan"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+            <a target="_blank" href="https://github.com/flexdinesh"><i className="fab fa-github"></i></a>
+            <a target="_blank" href="https://twitter.com/flexdinesh"><i className="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/dineshpandiyan"><i className="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://codepen.io"><i className="fab fa-codepen"></i></a>
           </div>
     );
 }

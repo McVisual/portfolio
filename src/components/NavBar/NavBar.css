@@ -1,0 +1,20 @@
+.topnav {
+    background: #EDEDED;
+    color: #AF3D4E;
+}
+
+.topnav li{
+    display: inline-block;
+    margin-inline-end: 24px;
+    margin-inline-start: 24px;
+    margin-block-start: 16px;
+    margin-top: 16px;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-left {
+    float: left;
+}
